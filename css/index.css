@@ -1,0 +1,104 @@
+body {
+    background-color: #1e202b;
+    color: #a2abcd;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.bakcolor {
+    background: #1e202b;
+}
+
+li a:hover {
+    color: #009ad8!important;
+    border: 2px solid #009ad8;
+    border-radius: 20px;
+}
+
+li a {
+    padding-left: 1rem!important;
+    padding-right: 1rem!important;
+    transition: color .5s!important;
+}
+
+.discription {
+    font-size: 0.7142857143em;
+    display: block;
+    color: #bfc1c8;
+}
+
+.coresite {
+    background-image: url(../images/banner.png);
+    min-height: 350px;
+    background-size: cover;
+    padding-top: 70px;
+}
+
+.find-location {
+    background-color: #1e202b;
+    border-radius: 30px;
+}
+
+#submit {
+    border-radius: 25px;
+}
+
+.site-footer {
+    background: #262936;
+    padding: 50px 0;
+}
+
+form .inpuut {
+    outline: none;
+    width: 50%;
+}
+
+.iconat {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    transition: all .5s;
+    background: #1e202b;
+    color: #009ad8;
+}
+
+.iconat:hover {
+    background-color: #0078ff;
+    color: white;
+    border-color: #acc9eb;
+}
+
+.forecast-table {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 10px;
+    margin-top: -150px;
+    margin-bottom: 50px;
+}
+
+.forecast-table2 {
+    background: #323544;
+    border-radius: 10px;
+}
+
+.forecast-header {
+    background-color: #1e202b;
+}
+
+div .num {
+    font-size: 6.5rem;
+    font-weight: 700;
+}
+
+.header {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.anotherdays1 {
+    background-color: #262936;
+}
